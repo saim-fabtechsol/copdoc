@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f9a70f49f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Edit Profile</title>
+</head>
+
+<body>
+    <section>
+        <div class="templatemain">
+            <div class="templateleft">
+                <div class="tlclosebtnsty tlclosebtn pointer">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="tltop">
+                    <a href="/index.html"><img src="/images/logowhite.png" alt="Logo"></a>
+                </div>
+                <div class="tlmid">
+                    <div class="tlmidlinks tllmidactive">
+                        <a href="#"><img class="iconimageleft" src="/images/Dashboardicon.png"
+                                alt="dashboard">Dashboard</a>
+                    </div>
+                    <div class="tlmidlinks ">
+                        <a href="#"><img class="iconimageleft" src="/images/ticketicon.png" alt="Ticket">Ticket
+                            Management</a>
+                    </div>
+                    <div class="tlmidlinks">
+                        <a href="#"><img class="iconimageleft" src="/images/upticketicon.png" alt="ticket">Upload
+                            Ticket</a>
+                    </div>
+                    <div class="tlmidlinks">
+                        <a href="#"><img class="iconimageleft" src="/images/vehicleinfoicon.png" alt="vehicle">Vehicle
+                            Information</a>
+                    </div>
+                    <div class="tlmidlinks">
+                        <a href="#"><img class="iconimageleft" src="/images/adddrivericon.png" alt="Driver">Add
+                            Driver</a>
+                    </div>
+                </div>
+                <div class="tlend">
+                    <div>
+                        <a href="#" class="tllogoutbtn"><img class="iconimageleft" src="/images/Logouticon.png"
+                                alt="Logout">Log Out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="templateright">
+                <div class="trmain">
+                    <div class="trtop">
+                        <div class="trtopl">
+                            <div class="tlbarbtnsty tlbarbtn pointer marginright">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                        <div class="trtopr">
+                            <div>
+                                <input class=" trtopsearch innofocus marginright" type="search" name="trtoprsearch"
+                                    id="trtoprsearch" placeholder="Search">
+                            </div>
+                            <div class="trtoprm">
+                                <div class="marginright belicon">
+                                    <i class="fa-regular fa-bell pointer"></i>
+                                </div>
+                                <div class="userprofile">
+                                    <div class="temusrimgb marginright">
+                                        <img class="userpimg" src="/images/Profile Picture.png" alt="profile">
+                                    </div>
+                                    <div class="temusrname marginright">
+                                        <p class="user-name fw-bold">Wade Warren</p>
+                                        <p class="user-mail">wade.warren@mail.com</p>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-caret-down pointer trdrpdniconsty trdrpdnicon "></i>
+                                    </div>
+                                    <div class="lgoutopt">
+                                        <a href="#"><img class="iconimageleft" src="/images/viewprofileicon.png"
+                                                alt="view">View
+                                            Profile</a>
+                                        <a href="#"><img class="iconimageleft" src="/images/Logoutblackicon.png"
+                                                alt="Logout">Log
+                                            Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trbtm">
+                        <div class="trbtminner">
+                            <!-- ------main code------------ -->
+                            <form action="" class="editprofilemain">
+                                <div class="editpromain">
+                                    <div>
+                                        <div class="edproheadings">
+                                            <p class="edproheading fw-semibold">Edit Profile</p>
+                                            <p>A user profile contains personal information, preferences, and activity
+                                                history
+                                                of an individual. <br>
+                                                It helps customize the user experience and streamline interactions.</p>
+                                        </div>
+                                        <div class="edproform">
+                                            <div class="edprotinputs">
+                                                <div class="edprofinbox">
+                                                    <input class="edprofinput innofocus" type="text"
+                                                        name="editprousername" id="editprousername"
+                                                        placeholder="Username">
+                                                </div>
+                                                <div class="edprofinbox">
+                                                    <input class="edprofinput innofocus" type="email"
+                                                        name="editproemail" id="editproemail" placeholder="Email">
+                                                </div>
+                                                <div class="edprofinbox">
+                                                    <input class="edprofinput innofocus" type="tel"
+                                                        name="editprocontact" id="editprocontact"
+                                                        placeholder="Contact Number">
+                                                </div>
+                                                <div class="edprofinbox">
+                                                    <input class="edprofinput innofocus" type="password"
+                                                        name="editpropassword" id="editpropassword"
+                                                        placeholder="Password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="edprofbtns">
+                                        <div class="edprosmbtn">
+                                            <input type="submit" value="Save">
+                                        </div>
+                                        <div class="edprorsbtn">
+                                            <input type="reset" value="Cancel">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
